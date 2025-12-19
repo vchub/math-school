@@ -1,0 +1,14 @@
+[project]
+name = "mystmd-quickstart"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=6.0.0",
+    "jupyter-book>=2.0.0",
+    "jupyterlab-myst>=2.6.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.3.5",
+    "vega-datasets>=0.9.0",
+]
