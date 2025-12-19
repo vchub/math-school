@@ -6,11 +6,11 @@ project:
   # description:
   # keywords: []
   # authors: []
-  github: https://github.com/jupyter-book/mystmd-quickstart
+  github: https://vchub.github.io/math-school
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-  title: "ME 🎩"
+  title: "Math 🎩"
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
