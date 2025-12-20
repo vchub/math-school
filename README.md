@@ -1,23 +1,57 @@
-# MyST Quickstart
+# Math School
 
 [![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://myst.tools)
 
-This repository contains the files used in the [quickstart guide](https://mystmd.org/guide/quickstart), and can be used to follow that guide, before trying MyST with your own content.
+Welcome to **Math School**, a collection of educational resources and interactive lessons designed to help students master fundamental mathematical concepts.
 
-> **Note** This is **not** a good example of an actual MyST project! The repositories purpose is to be a simple markdown + notebook repository that can be transformed throughout a tutorial.
+## 📚 Topics Covered
 
-The goals of the [quickstart guide](https://myst.tools/docs/mystjs/quickstart) are:
+The curriculum is organized into several key areas:
 
-1. Create a `myst` site, using the standard template
-2. Improve the frontmatter, to add authors, affiliations and other metadata
-3. Export the paper as a PDF, Word document, and LaTeX files
-4. Integrate a Jupyter Notebook output into our paper, to improve reproducibility
-5. Publish a website of with our work 🚀
+### 1. Factors & Multiplication
+*   **Common Factors**: Learn how to identify and factor out common terms to simplify expressions.
+*   **Commutative Property**: Understand the properties of multiplication and how to group numbers for easier calculation.
 
-## Improving Frontmatter and MyST Site
+### 2. Fractions
+*   **Division**: Step-by-step guides on dividing fractions and mixed numbers.
+*   **Equations**: Solving equations involving fractional coefficients.
+*   **Mixed Problems**: Practice with various operations involving fractions.
 
-![](./images/frontmatter-after.png)
+### 3. Negatives
+*   **Introduction**: Understanding negative numbers and their properties.
+*   **The Journey**: A conceptual approach to learning operations with negative integers.
 
-## Export as a PDF
+### 4. Powers
+*   **Exponents**: Introduction to powers and their rules.
 
-![](./images/export-pdf.png)
+### 5. Proportions
+*   **Ratios & Proportions**: Understanding relationships between quantities and solving proportional problems.
+
+### 6. Challenges
+*   **Equation Challenges**: Advanced problems to test your algebraic skills.
+
+## 🚀 Getting Started
+
+This project is built using [MyST Markdown](https://mystmd.org/), allowing for rich, interactive technical documentation.
+
+### Prerequisites
+*   Python 3.8+
+*   MyST CLI
+
+### Installation
+
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Building the Book
+
+To build the project locally:
+
+```bash
+myst build
+```
+
+The output will be available in the `_build` directory.
