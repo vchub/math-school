@@ -48,27 +48,27 @@ In our paper we will give an overview of the MyST ecosystem, how to use MyST too
 
 MyST is focused on scientific writing, and ensuring that citations are first class both for writing and for reading (see Figure 1).
 
-![](./images/citations.png)
+![](../images/citations.png)
 **Figure 1**: Citations are rendered with a popup directly inline.
 
 MyST aims to show as much information in context as possible, for example, Figure 2 shows a reading experience for a referenced equation: you can immediately **click on the reference**, see the equation, all without loosing any context -- ultimately saving you time. Head _et al._ (2021) found that these ideas both improved the overall reading experience of articles as well as allowed researchers to answer questions about an article **26% faster** when compared to a traditional PDF!
 
-![](./images/equations.gif)
+![](../images/equations.gif)
 **Figure 2**: In context cross-references improve the reading experience.
 
 One of the important underlying goals of practicing reproducibility, sharing more of the methods and data behind a scientific work so that other researchers can both verify as well as build upon your findings. One of the exciting ways to pull for reproducibility is to make documents directly linked to data and computation! In Figure 3, we are showing outputs from a Jupyter Notebook directly part of the published scientific narrative.
 
-![](./images/interactive.gif)
+![](../images/interactive.gif)
 **Figure 3**: Embedding data, interactivity and computation into a MyST article.
 
 To drive all of these features, the contents of a MyST document needs to be well defined. This is critical for powering interactive hovers, linked citations, and compatibility with scientific publishing standards like the Journal Article Metadata Tag Suite (JATS). We have an emerging specification for MyST, [`myst-spec`](https://spec.myst.tools), that aims to capture this information and transform it between many different formats, like PDF, Word, JSON, and JATS XML (Figure 4). This specification is arrived at through a community-centric MyST Enhancement Proposal ([MEP](https://compass.executablebooks.org/en/latest/meps.html)) process.
 
-![](./images/structured-data.gif)
+![](../images/structured-data.gif)
 **Figure 4**: The data behind MyST is **structured**, which means we can transform it into many different document types and use it to power all sorts of exciting features!
 
 One of the common forms of scientific communication today is through PDF documents. MyST has excellent support for creating PDF documents, using a data-driven templating library called `jtex`. The document in Figure 5 was created using MyST!
 
-![](./images/pdf-two-column.png)
+![](../images/pdf-two-column.png)
 **Figure 5**: A PDF rendering through MyST.
 
 ## Conclusion
