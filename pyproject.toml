@@ -9,6 +9,7 @@ dependencies = [
     "jupyter-book>=2.0.0",
     "jupyterlab-myst>=2.6.0",
     "matplotlib>=3.10.8",
+    "mystmd>=1.7.1",
     "numpy>=2.3.5",
     "vega-datasets>=0.9.0",
 ]
