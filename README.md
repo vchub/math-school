@@ -4,31 +4,29 @@
 
 Welcome to **Math School**, a collection of educational resources and interactive lessons designed to help students master fundamental mathematical concepts.
 
-## 📚 Topics Covered
+## 📚 Curriculum
 
-The curriculum is organized into several key areas:
+The curriculum is organized into key mathematical areas, featuring both theoretical explanations and practical exercises.
 
-### 1. Factors & Multiplication
-*   **Common Factors**: Learn how to identify and factor out common terms to simplify expressions.
-*   **Commutative Property**: Understand the properties of multiplication and how to group numbers for easier calculation.
+### 1. Algebra
+Located in the `algebra/` directory.
+*   **Factors**: Theory and practice on factoring algebraic expressions, finding common factors, and simplification.
+*   **Fractions**: A comprehensive guide to operations with fractions, solving fractional equations, and word problems.
+*   **Speeds**: Logic and algebra behind motion problems, exploring average speed, harmonic mean, and relative velocity (wind/current).
 
-### 2. Fractions
-*   **Division**: Step-by-step guides on dividing fractions and mixed numbers.
-*   **Equations**: Solving equations involving fractional coefficients.
-*   **Mixed Problems**: Practice with various operations involving fractions.
+### 2. Combinatorics (Permutations & Combinations)
+Located in the `combinatorics/` directory.
+A complete, step-by-step course adapted from G'Day Math, covering:
+*   **Foundations**: The Multiplication Principle, word games, and anagrams.
+*   **Core Concepts**: The Labeling Principle, factorials ($n!$), and the logic of counting.
+*   **Visual Patterns**: Grid numbers, the "Stocking Property", and Pascal's Triangle.
+*   **Theorems**: The Binomial Theorem ($ (x+y)^n $) and its applications.
+*   **Applications**: Analyzing poker hands, forming committees, and counting paths.
+*   **Practice**: Extensive sets of exercises ranging from basic to advanced challenges.
 
-### 3. Negatives
-*   **Introduction**: Understanding negative numbers and their properties.
-*   **The Journey**: A conceptual approach to learning operations with negative integers.
-
-### 4. Powers
-*   **Exponents**: Introduction to powers and their rules.
-
-### 5. Proportions
-*   **Ratios & Proportions**: Understanding relationships between quantities and solving proportional problems.
-
-### 6. Challenges
-*   **Equation Challenges**: Advanced problems to test your algebraic skills.
+### 3. Legacy Content
+Located in the `old/` directory.
+*   Earlier modules on negative numbers, powers, proportions, and equations.
 
 ## 🚀 Getting Started
 
@@ -36,22 +34,26 @@ This project is built using [MyST Markdown](https://mystmd.org/), allowing for r
 
 ### Prerequisites
 *   Python 3.8+
-*   MyST CLI
+*   MyST CLI (installable via npm or pip, or use the project requirements)
 
 ### Installation
 
 1.  Clone the repository.
-2.  Install dependencies:
+2.  Install Python dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
 ### Building the Book
 
-To build the project locally:
+To build the project locally using MyST:
 
 ```bash
 myst build
 ```
 
-The output will be available in the `_build` directory.
+The output will be available in the `_build` directory (e.g., `_build/site/index.html`).
+
+## 📄 License
+
+This project is open for educational use.
